@@ -14,6 +14,7 @@
 		21CEF3721E33259F0035BC6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21CEF3701E33259F0035BC6B /* LaunchScreen.storyboard */; };
 		21CEF37D1E33259F0035BC6B /* MonkeyPortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CEF37C1E33259F0035BC6B /* MonkeyPortfolioTests.swift */; };
 		21CEF3881E33259F0035BC6B /* MonkeyPortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CEF3871E33259F0035BC6B /* MonkeyPortfolioUITests.swift */; };
+		21CEF3961E3325D00035BC6B /* JapaneseStock20170121.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CEF3951E3325D00035BC6B /* JapaneseStock20170121.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		21CEF3831E33259F0035BC6B /* MonkeyPortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonkeyPortfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CEF3871E33259F0035BC6B /* MonkeyPortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyPortfolioUITests.swift; sourceTree = "<group>"; };
 		21CEF3891E33259F0035BC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21CEF3951E3325D00035BC6B /* JapaneseStock20170121.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JapaneseStock20170121.swift; path = ../JapaneseStock20170121.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				21CEF3671E33259F0035BC6B /* AppDelegate.swift */,
 				21CEF3691E33259F0035BC6B /* ViewController.swift */,
+				21CEF3951E3325D00035BC6B /* JapaneseStock20170121.swift */,
 				21CEF36B1E33259F0035BC6B /* Main.storyboard */,
 				21CEF36E1E33259F0035BC6B /* Assets.xcassets */,
 				21CEF3701E33259F0035BC6B /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21CEF36A1E33259F0035BC6B /* ViewController.swift in Sources */,
+				21CEF3961E3325D00035BC6B /* JapaneseStock20170121.swift in Sources */,
 				21CEF3681E33259F0035BC6B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
