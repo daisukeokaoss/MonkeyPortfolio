@@ -26,6 +26,19 @@ class MonkeyPortfolioTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
+    func testFundIsNotDoubled()
+    {
+        let stock = JapaneseStock20170121()
+        let array = stock.returnStockArray()
+        for i in 0..<array.count {
+            for j in 0..<array.count{
+                if(i != j){
+                    XCTAssertNotEqual(array[i], array[j])
+                }
+            }
+        }
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
