@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		214CC5091E3ABD7700F65ABD /* USStock20170127.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214CC5081E3ABD7700F65ABD /* USStock20170127.swift */; };
 		21CEF3681E33259F0035BC6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CEF3671E33259F0035BC6B /* AppDelegate.swift */; };
 		21CEF36D1E33259F0035BC6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21CEF36B1E33259F0035BC6B /* Main.storyboard */; };
 		21CEF36F1E33259F0035BC6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21CEF36E1E33259F0035BC6B /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		214CC5081E3ABD7700F65ABD /* USStock20170127.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USStock20170127.swift; sourceTree = "<group>"; };
 		21CEF3641E33259F0035BC6B /* MonkeyPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonkeyPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CEF3671E33259F0035BC6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21CEF36C1E33259F0035BC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				21CEF3671E33259F0035BC6B /* AppDelegate.swift */,
 				21CEF3971E3391210035BC6B /* MainViewController.swift */,
 				21CEF3951E3325D00035BC6B /* JapaneseStock20170121.swift */,
+				214CC5081E3ABD7700F65ABD /* USStock20170127.swift */,
 				21CEF36B1E33259F0035BC6B /* Main.storyboard */,
 				21CEF36E1E33259F0035BC6B /* Assets.xcassets */,
 				21CEF3701E33259F0035BC6B /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				214CC5091E3ABD7700F65ABD /* USStock20170127.swift in Sources */,
 				21CEF3961E3325D00035BC6B /* JapaneseStock20170121.swift in Sources */,
 				21CEF3681E33259F0035BC6B /* AppDelegate.swift in Sources */,
 				21CEF3981E3391210035BC6B /* MainViewController.swift in Sources */,
@@ -509,6 +513,7 @@
 				21CEF38E1E33259F0035BC6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21CEF38F1E33259F0035BC6B /* Build configuration list for PBXNativeTarget "MonkeyPortfolioTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +522,7 @@
 				21CEF3911E33259F0035BC6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21CEF3921E33259F0035BC6B /* Build configuration list for PBXNativeTarget "MonkeyPortfolioUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +531,7 @@
 				21CEF3941E33259F0035BC6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
